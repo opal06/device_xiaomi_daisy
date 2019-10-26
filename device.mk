@@ -102,6 +102,12 @@ PRODUCT_PACKAGES += \
     libvolumelistener \
     tinymix
 
+# A2DP
+PRODUCT_PACKAGES += \
+  audio.a2dp.default \
+  android.hardware.bluetooth.a2dp@1.0-impl \
+  android.hardware.bluetooth.a2dp@1.0-service
+
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
