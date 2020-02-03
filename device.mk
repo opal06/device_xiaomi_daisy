@@ -240,6 +240,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     qcom.fmradio
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/com.qcom.fmradio.xml:system/etc/permissions/com.qcom.fmradio.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     libwifi-hal-ctrl
