@@ -113,6 +113,10 @@ persist.debug.coresight.config=stm-events
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.console.silent.config=1
 
+# Display cutout
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.potato.has_cutout=true
+
 # Cpu in core control
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.qti.core_ctl_min_cpu=2 \
