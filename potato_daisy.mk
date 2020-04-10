@@ -29,6 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Inherit some common potato stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOTANIM_LOW_RES := true
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 #APNS
