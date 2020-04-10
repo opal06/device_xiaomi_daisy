@@ -35,6 +35,9 @@ $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
 
+# Enable Faceunlock for POSP users
+PRODUCT_ARCH := arm64
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := daisy
 PRODUCT_NAME := potato_daisy
