@@ -3,7 +3,6 @@ sys.fp.goodix					u:object_r:fingerprint_prop:s0
 sys.fp.vendor					u:object_r:fingerprint_prop:s0
 
 sys.listeners.registered   u:object_r:vendor_tee_listener_prop:s0
-sys.post_boot.parsed       u:object_r:vendor_mpctl_prop:s0
 persist.net.doxlat         u:object_r:vendor_xlat_prop:s0
 camera.dual.mode           u:object_r:camera_prop:s0
 persist.camera.            u:object_r:camera_prop:s0
@@ -12,3 +11,20 @@ wifi.active.interface      u:object_r:exported_wifi_prop:s0
 
 # Dirac
 persist.audio.dirac.                                          u:object_r:dirac_prop:s0
+
+# Post Boot
+sys.post_boot.                                              u:object_r:vendor_mpctl_prop:s0
+sys.post_boot.parsed                                        u:object_r:vendor_mpctl_prop:s0
+
+# Thermal
+sys.thermal.                u:object_r:thermal_engine_prop:s0
+persist.sys.thermal.        u:object_r:thermal_engine_prop:s0
+
+# Sensors
+sys.panel.                                                    u:object_r:sensors_panel_prop:s0
+
+# Power
+vendor.powerhal.state                                         u:object_r:power_prop:s0
+vendor.powerhal.audio                                         u:object_r:power_prop:s0
+vendor.powerhal.init                                          u:object_r:power_prop:s0
+vendor.powerhal.rendering                                     u:object_r:power_prop:s0
