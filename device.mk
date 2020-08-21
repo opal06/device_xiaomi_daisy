@@ -227,6 +227,7 @@ PRODUCT_PACKAGES += \
 
 # FM
 PRODUCT_PACKAGES += \
+    FM2 \
     FMRadio \
     libfmjni
 
