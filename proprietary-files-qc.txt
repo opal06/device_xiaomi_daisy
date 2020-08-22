@@ -95,9 +95,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|7387026509e6667af4133
 vendor/lib64/libbtnv.so|7f1753424a5d7c51d52bd9f7ad87542abd04a1f6
 vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
 
-# Bluetooth (shared dependencies) - from LA.UM.8.6.2.r1-07600-89xx.0
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|9c1b952043c7722fd27bfd971ecebb2584671862
-
 # Bluetooth Audio - from LA.UM.8.6.2.r1-07600-89xx.0
 vendor/lib64/hw/audio.bluetooth_qti.default.so|102539a0013edf06790215b21bed68c704437a96
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|93f09e7ee848e2d6fee7f0810ad8a3e57346b72c
@@ -115,6 +112,12 @@ vendor/lib/libbluetooth_audio_session_qti.so|e4c2908f8257b403610a93df094c8717dc8
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|b6e5d67869138d102595dd03562314d33c2e825e
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|e9cffc642dc8f15492ca316c276e02c7e146b90d
 vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so|fe0c94096ad70472271c0093ce6be226f74e40f4
+
+# FM - from daisy:10/QKQ1.191002.002/V11.0.4.0.QDLMIXM
+vendor/bin/fm_qsoc_patches|1d20ce04a514c151da08e606faa595d2380de4d6
+vendor/bin/init.qti.fm.sh|0ac820dd85ebdf5fa73b5e971f6787ff35ceb65d
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|fc7ad886f82089edf36509865fadac17a7340f32
+vendor/etc/init/init.qti.fm.rc|07cb64e2109a900eb6e1da1950fddba954d0f8d6
 
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_8_0.fw
