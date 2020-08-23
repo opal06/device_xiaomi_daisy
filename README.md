@@ -1,4 +1,7 @@
-Copyright (C) 2020 The The LineageOS Project
+Device configuration for Xiaomi Mi A2 Lite (daisy)
+===================================================
+
+![Xiaomi Mi A2 Lite](https://i.imgur.com/vQ2GlTL.png "Xiaomi Mi A2 Lite in black")
 
 The Mi A2 Lite (codenamed _"daisy"_) smartphone from Xiaomi.
 
@@ -21,6 +24,5 @@ Xiaomi Mi A2 Lite was announced and released in July 2018.
 | Rear camera 2 | 5 MP, f/2.2, 1.12 μm, depth sensor             |
 | Front camera | 5 MP, f/2.0                                     |
 
-## Device picture
 
-![Xiaomi Mi A2 Lite](https://i01.appmifile.com/webfile/globalimg/products/pc/D1S/black_phone.png "Xiaomi Mi A2 Lite in black")
+**Copyright (C) 2020 The Potato Open Source Project**
